@@ -1,0 +1,6 @@
+ipfw add 1000 fwd 192.168.2.1,3128 tcp from any to any 80 in recv dc0
+
+
+
+make rmconfig
+make reinstall clean
